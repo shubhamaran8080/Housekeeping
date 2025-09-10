@@ -39,7 +39,12 @@ const App = () => {
       ]
     },
     
-  ])
+  ],
+    {
+    basename: "/Housekeeping",   // 👈 ADD THIS LINE
+  }
+
+)
   return <RouterProvider router={router}/>
 }
 
